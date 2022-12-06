@@ -24,10 +24,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.tinmyowin.aungzay"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "babel": {
+        "include": [
+          "@ui-kitten/components"
+        ]
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2817bbc1-214b-4883-a510-0aa0a23fa324"
+      }
     }
   }
 }
